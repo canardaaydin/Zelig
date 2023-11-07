@@ -1,0 +1,12 @@
+{
+	"branch": "main",
+	"generateDocsOnPush": true,
+	"docsInclude": ["bitcoin/*", "sim/*", "zelig.py"],
+	"docsExclude": ["docs.json", "src/.*.md"],
+	"generateDocumentationPath": "",
+	"unitTestPrompt": "",
+	"generateUnitTestOnPush": false,
+	"testFileExtension": ".test.ts",
+	"testsInclude": ["bitcoin/*", "sim/*", "zelig.py"],
+	"testsExclude": ["docs.json", "src/.*.md", "src/.*.test.ts"]
+}
